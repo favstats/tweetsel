@@ -42,7 +42,7 @@ library(tweetsel)
 ```
 
 
-```{r, eval = F}
+```{r, eval = F, include=F}
 rD <- RSelenium::rsDriver(browser=c("chrome"), chromever="78.0.3904.105", port = port)
 
 binman::list_versions("chromedriver")

@@ -30,11 +30,6 @@ Load in Package
 library(tweetsel)
 ```
 
-``` r
-rD <- RSelenium::rsDriver(browser=c("chrome"), chromever="78.0.3904.105", port = port)
-
-binman::list_versions("chromedriver")
-```
 
 Create a WebDriver with `RSelenium`
 
